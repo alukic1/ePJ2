@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="602.0" prefWidth="869.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unibl.etf.pj2.epj2.epj2.controller.FailuresViewController">
+   <children>
+      <TableView fx:id="failuresTable" layoutX="100.0" layoutY="117.0" prefHeight="368.0" prefWidth="670.0">
+         <columns>
+            <TableColumn fx:id="vehicleType" prefWidth="162.0" text="Vrsta prevoznog sredstva" />
+            <TableColumn fx:id="vehicleId" minWidth="0.0" prefWidth="58.0" text="ID" />
+            <TableColumn fx:id="failureDateTime" prefWidth="166.0" text="Datum i vrijeme kvara" />
+            <TableColumn fx:id="failureDescription" maxWidth="1.7976931348623157E308" prefWidth="285.0" text="Opis" />
+         </columns>
+      </TableView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="14.0" prefHeight="21.0" prefWidth="869.0" text="Kvarovi" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button layoutX="28.0" layoutY="12.0" mnemonicParsing="false" onAction="#goBack" text="Back" />
+   </children>
+</AnchorPane>

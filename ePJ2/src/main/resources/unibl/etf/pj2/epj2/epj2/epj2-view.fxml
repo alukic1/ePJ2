@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unibl.etf.pj2.epj2.epj2.controller.EPJ2ViewController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutY="27.0" prefHeight="17.0" prefWidth="600.0" text="ePJ2" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="200.0" layoutY="96.0" mnemonicParsing="false" onAction="#goMap" prefHeight="42.0" prefWidth="200.0" text="Prikaz mape" />
+      <Button layoutX="200.0" layoutY="153.0" mnemonicParsing="false" onAction="#goVehiclesView" prefHeight="42.0" prefWidth="200.0" text="Prikaz svih vozila" />
+      <Button layoutX="200.0" layoutY="211.0" mnemonicParsing="false" onAction="#goFailures" prefHeight="42.0" prefWidth="200.0" text="Prikaz kvarova" />
+      <Button layoutX="200.0" layoutY="270.0" mnemonicParsing="false" onAction="#goBusinessReports" prefHeight="42.0" prefWidth="200.0" text="Prikaz rezultata poslovanja" />
+      <Button layoutX="200.0" layoutY="330.0" mnemonicParsing="false" onAction="#goHighestExpenseVehicles" prefHeight="42.0" prefWidth="200.0" text="Prevozna sredstva sa najviše gubitaka" textAlignment="CENTER" wrapText="true" />
+   </children>
+</AnchorPane>
